@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.meunu ul,
+li,
+a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@media (width <=768px) {
+    .menu {
+        flex-direction: column;
+
+    }
+}

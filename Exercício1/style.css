@@ -1,0 +1,28 @@
+html {
+    font-size: 2px;
+}
+
+h1, p{
+    text-align: center;
+}
+
+@media (width >= 768px) {
+    h1{
+        font-size: 18rem;
+    }
+
+    p{
+        font-size: 8rem;
+    }
+    }
+
+@media (width <= 768px) {
+        h1{
+            font-size: 12rem;
+        }
+    
+        p{
+            font-size: 7rem;
+        }
+        
+        }
